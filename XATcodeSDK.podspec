@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XATcodeSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of XATcodeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'maiya' => 'maiya' }
-  s.source           = { :git => 'https://github.com/xaxt/XATcodeSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com/xaxt/XATcodeSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   
    s.frameworks = 'UIKit', 'Foundation'
