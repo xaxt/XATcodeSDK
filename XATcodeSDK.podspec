@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'maiya' => 'maiya' }
   s.source           = { :git => 'https://github.com/xaxt/XATcodeSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
+  s.source_files = 'Framework/**/*.{mlmodel}'
   
   s.libraries = 'c++'
   s.frameworks = 'UIKit', 'Foundation', 'JavaScriptCore'
@@ -34,7 +35,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Ono', '2.1.2'
   
   
-  s.resources = "Framework/*.{mlmodel,js}"
+  s.resources = "Framework/**/*.{js,mlmodel}"
   s.vendored_frameworks = "Framework/XATcodeSDK.framework"
   s.public_header_files = 'Framework/XATcodeSDK/XATcodeSdk.h'
   s.static_framework = true
