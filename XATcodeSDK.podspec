@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XATcodeSDK'
-  s.version          = '0.1.7'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of XATcodeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   
   s.libraries = 'c++'
-  s.frameworks = 'UIKit', 'Foundation', 'JavaScriptCore', 'libc++'
+  s.frameworks = 'UIKit', 'Foundation', 'JavaScriptCore'
   s.dependency 'AFNetworking', '~> 4.0.1'
   s.dependency 'Ono', '2.1.2'
   
