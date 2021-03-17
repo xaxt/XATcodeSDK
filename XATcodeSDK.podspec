@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XATcodeSDK'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of XATcodeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xaxt/XATcodeSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   
-   s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation', 'JavaScriptCore', 'libc++'
   s.dependency 'AFNetworking', '~> 4.0.1'
   s.dependency 'Ono', '2.1.2'
   
@@ -36,8 +36,6 @@ TODO: Add long description of the pod here.
   s.resources = "Framework/*.{mlmodel,js}"
   s.vendored_frameworks = "Framework/XATcodeSDK.framework"
   s.public_header_files = 'Framework/XATcodeSDK/XATcodeSdk.h'
-  
-  s.libraries = 'c++'
-  s.frameworks = 'JavaScriptCore'
+  s.static_framework = true
   
 end
