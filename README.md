@@ -141,3 +141,11 @@ XAWebsiteType_Count,
 ## License
 
 XATcodeSDK is available under the MIT license. See the LICENSE file for more info.
+
+### 使用合作
+
+客户接入前，需要签订协议，按流程发送至商务邮箱：2257935357@qq.com，邮箱确认后方可接入
+
+
+协议书见项目文件
+
