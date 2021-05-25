@@ -147,5 +147,5 @@ XATcodeSDK is available under the MIT license. See the LICENSE file for more inf
 客户接入前，需要签订协议，按流程发送至商务邮箱：2257935357@qq.com，邮箱确认后方可接入
 
 
-协议书见项目文件
+协议书见项目[文件](https://github.com/xaxt/XATcodeSDK/blob/main/%E4%BE%9D%E6%B3%95%E7%BB%8F%E8%90%A5%E6%89%BF%E8%AF%BA%E4%B9%A6.docx)
 
